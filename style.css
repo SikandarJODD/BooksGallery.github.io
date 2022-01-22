@@ -15,6 +15,8 @@
 #act-1{
     font-family: 'Baloo Bhaijaan 2', cursive;
     /* font-family: pt sans,sans-serif; */
+    z-index: 1;
+
 }
 #act-2{
     margin: auto;
@@ -109,8 +111,9 @@
 @media (max-width: 575.98px) { 
     #act-1{
 
-        background: rgb(63,68,69);
-        background: linear-gradient(18deg, rgba(63,68,69,0.9900911048012955) 15%, rgba(62,61,61,0.9900911048012955) 43%, rgba(9,9,9,1) 96%);
+        background: rgba(9, 14, 15, 0.336);
+        
+        /* background: linear-gradient(18deg, rgba(63,68,69,0.9900911048012955) 15%, rgba(62,61,61,0.9900911048012955) 43%, rgba(9,9,9,1) 96%); */
     }
     #act-2{
         text-align:  center;
